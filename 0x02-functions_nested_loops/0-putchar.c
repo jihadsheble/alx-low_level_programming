@@ -7,7 +7,7 @@
 
 	int main(void)
 	{
-		// this is the main function
+
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
