@@ -5,7 +5,7 @@
 	 */
 
 
-	int main(void)
+	int main(void)//main function
 	{
 
 	_putchar('_');
