@@ -1,11 +1,13 @@
 #include "main.h"
 	/**
-	* main - a program that prints _putchar, followed by a new line.
-	* Return: 0 (Success)
- 	*/
+	 * main - print _putchar
+	 * Return: 0
+	 */
+
 
 	int main(void)
 	{
+		// this is the main function
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
