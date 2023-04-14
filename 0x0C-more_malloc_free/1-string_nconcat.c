@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * *string_nconcat - concatenates n bytes of s2 to s1
@@ -26,7 +26,8 @@ unsigned int x = 0, y = 0, len1 = 0, len2 = 0;
 
 	if (!s)
 		return (NULL);
-		while (x < len1)
+
+	while (x < len1)
 	{
 		s[x] = s1[x];
 		x++;
