@@ -2,14 +2,15 @@
 #define DOG_H
 
 
-	/**
-	 * struct dog - dog info
-	 * @name: 1st member
-	 * @age: 2nd member
-	 * @owner: 3d member
-	 *
-	 * Description: new type struct dog with elements
-	 */
+/**
+* struct dog - dog info
+* @name: 1st member
+* @age: 2nd member
+* @owner: 3d member
+*
+* Description: new type struct dog with elements
+* (dog name, dog age, owner name)
+*/
 	struct dog
 	{
 		char *name;
