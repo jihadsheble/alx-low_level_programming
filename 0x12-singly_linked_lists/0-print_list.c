@@ -7,18 +7,18 @@
  * Return: number of nodes that will be printed
  */
 size_t print_list(const list_t *h)
+
+	size_t s = 0;
+
+while (h)
 {
- size_t s = 0;
+if (!h->str)
+printf("[0] (nil)\n");
+else
+printf("[%u] %s\n", h->len, h->str);
+h = h->next;
+s++;
+}
 
- while (h)
- {
- if (!h->str)
- printf("[0] (nil)\n");
- else
- printf("[%u] %s\n", h->len, h->str);
- h = h->next;
- s++;
- }
-
- return (s);
+return (s);
 }
