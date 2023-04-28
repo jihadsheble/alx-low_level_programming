@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * add_node - a function that adds a new node at the beginning of a list_t list.
+ * add_node - function that adds a new node at the beginning of a list_t list.
  * @head: a double pointer to the list_t list
  * @str: new string that will be added in the node
  *
